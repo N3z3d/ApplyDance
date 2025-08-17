@@ -1,0 +1,10 @@
+[ {
+  "id" : 1,
+  "generatedAt" : "2025-06-22 21:43:59",
+  "typePoste" : "POSTE_FRANCE",
+  "organisation" : null,
+  "ville" : "Grand-Quevilly",
+  "canal" : "Pôle Emploi",
+  "description" : "\uD83C\uDFAF Poste en France\n\uD83D\uDCCD Rouen et ses environs\n\uD83D\uDCF1 Pôle Emploi\n⏰ Généré le 22/06/2025 à 21:43",
+  "rouenPeripherie" : true
+} ]

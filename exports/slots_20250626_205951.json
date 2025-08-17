@@ -1,0 +1,73 @@
+[ {
+  "id" : 1,
+  "generatedAt" : "2025-06-26 20:59:25",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Spontanée",
+  "selectedNodeId" : "d259c210-da98-4ce2-b5de-b81799d0901e",
+  "selectedNodeName" : "Spontanée",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 2,
+  "generatedAt" : "2025-06-26 20:59:30",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Business France",
+  "selectedNodeId" : "7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+  "selectedNodeName" : "Business France",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 3,
+  "generatedAt" : "2025-06-26 20:59:30",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > France Travail",
+  "selectedNodeId" : "a8d924eb-016f-4f7a-bd72-49a68043d53c",
+  "selectedNodeName" : "France Travail",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 9.803921568627452
+  },
+  "selected" : false
+}, {
+  "id" : 4,
+  "generatedAt" : "2025-06-26 20:59:30",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Welcome to the Jungle",
+  "selectedNodeId" : "882c1342-b62b-417f-afb9-64866377557a",
+  "selectedNodeName" : "Welcome to the Jungle",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 9.803921568627452
+  },
+  "selected" : false
+}, {
+  "id" : 5,
+  "generatedAt" : "2025-06-26 20:59:30",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Linkedin",
+  "selectedNodeId" : "3621618d-11e4-402e-a4be-8a588d411ea5",
+  "selectedNodeName" : "Linkedin",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 29.41176470588236
+  },
+  "selected" : false
+}, {
+  "id" : 6,
+  "generatedAt" : "2025-06-26 20:59:31",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Autre que Rouen > Linkedin",
+  "selectedNodeId" : "f1f41030-86ef-4ea9-91a1-339c96534859",
+  "selectedNodeName" : "Linkedin",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 29.4
+  },
+  "selected" : false
+} ]

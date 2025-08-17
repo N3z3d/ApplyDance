@@ -1,0 +1,1321 @@
+[ {
+  "id" : 1,
+  "generatedAt" : "2025-06-23 22:19:23",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 2,
+  "generatedAt" : "2025-06-23 22:19:27",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 3,
+  "generatedAt" : "2025-06-23 22:19:30",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 4,
+  "generatedAt" : "2025-06-23 22:19:31",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 5,
+  "generatedAt" : "2025-06-23 22:19:31",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 6,
+  "generatedAt" : "2025-06-23 22:19:31",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 7,
+  "generatedAt" : "2025-06-23 22:19:31",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 8,
+  "generatedAt" : "2025-06-23 22:30:29",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 9,
+  "generatedAt" : "2025-06-23 22:30:30",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 10,
+  "generatedAt" : "2025-06-23 22:30:31",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 11,
+  "generatedAt" : "2025-06-23 22:30:31",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 12,
+  "generatedAt" : "2025-06-23 22:30:32",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 13,
+  "generatedAt" : "2025-06-23 22:30:32",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 14,
+  "generatedAt" : "2025-06-23 22:30:33",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 15,
+  "generatedAt" : "2025-06-23 22:30:33",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 16,
+  "generatedAt" : "2025-06-23 22:30:34",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 17,
+  "generatedAt" : "2025-06-23 22:30:34",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 18,
+  "generatedAt" : "2025-06-23 22:30:35",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 19,
+  "generatedAt" : "2025-06-23 22:30:35",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 20,
+  "generatedAt" : "2025-06-23 22:30:36",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 21,
+  "generatedAt" : "2025-06-23 22:30:36",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 22,
+  "generatedAt" : "2025-06-23 22:30:37",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 23,
+  "generatedAt" : "2025-06-23 22:30:37",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 24,
+  "generatedAt" : "2025-06-23 22:30:37",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 25,
+  "generatedAt" : "2025-06-23 22:30:37",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 26,
+  "generatedAt" : "2025-06-23 22:30:37",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 27,
+  "generatedAt" : "2025-06-23 22:30:38",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 28,
+  "generatedAt" : "2025-06-23 22:30:38",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 29,
+  "generatedAt" : "2025-06-23 22:30:38",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 30,
+  "generatedAt" : "2025-06-23 22:30:38",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 31,
+  "generatedAt" : "2025-06-23 22:30:38",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 32,
+  "generatedAt" : "2025-06-23 22:30:39",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 33,
+  "generatedAt" : "2025-06-23 22:30:39",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 34,
+  "generatedAt" : "2025-06-23 22:30:39",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 35,
+  "generatedAt" : "2025-06-23 22:30:39",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 36,
+  "generatedAt" : "2025-06-23 22:30:39",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 37,
+  "generatedAt" : "2025-06-23 22:30:39",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 38,
+  "generatedAt" : "2025-06-23 22:32:22",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 39,
+  "generatedAt" : "2025-06-23 22:43:48",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 40,
+  "generatedAt" : "2025-06-23 22:43:49",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 41,
+  "generatedAt" : "2025-06-23 22:43:50",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 42,
+  "generatedAt" : "2025-06-23 22:43:50",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 43,
+  "generatedAt" : "2025-06-23 22:43:51",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 44,
+  "generatedAt" : "2025-06-23 22:43:51",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 45,
+  "generatedAt" : "2025-06-23 22:43:52",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 46,
+  "generatedAt" : "2025-06-23 22:43:52",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 47,
+  "generatedAt" : "2025-06-23 22:43:53",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 48,
+  "generatedAt" : "2025-06-23 22:43:53",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 49,
+  "generatedAt" : "2025-06-23 22:43:54",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 50,
+  "generatedAt" : "2025-06-23 22:43:54",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 51,
+  "generatedAt" : "2025-06-23 22:43:55",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 52,
+  "generatedAt" : "2025-06-23 22:43:55",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 53,
+  "generatedAt" : "2025-06-23 22:43:55",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 54,
+  "generatedAt" : "2025-06-23 22:43:55",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 55,
+  "generatedAt" : "2025-06-23 22:43:56",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 56,
+  "generatedAt" : "2025-06-23 22:43:56",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 57,
+  "generatedAt" : "2025-06-23 22:43:56",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 58,
+  "generatedAt" : "2025-06-23 22:43:56",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 59,
+  "generatedAt" : "2025-06-23 22:43:59",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 60,
+  "generatedAt" : "2025-06-23 22:43:59",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 61,
+  "generatedAt" : "2025-06-23 22:44:00",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 62,
+  "generatedAt" : "2025-06-23 22:44:00",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 63,
+  "generatedAt" : "2025-06-23 22:44:00",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 64,
+  "generatedAt" : "2025-06-23 22:44:00",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 65,
+  "generatedAt" : "2025-06-23 22:49:54",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 66,
+  "generatedAt" : "2025-06-23 22:50:08",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 67,
+  "generatedAt" : "2025-06-23 22:50:09",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 68,
+  "generatedAt" : "2025-06-23 22:50:10",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 69,
+  "generatedAt" : "2025-06-23 22:50:11",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 70,
+  "generatedAt" : "2025-06-23 22:50:11",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 71,
+  "generatedAt" : "2025-06-23 22:50:12",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 72,
+  "generatedAt" : "2025-06-23 22:50:12",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 73,
+  "generatedAt" : "2025-06-23 22:50:13",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 74,
+  "generatedAt" : "2025-06-23 22:50:14",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 75,
+  "generatedAt" : "2025-06-23 22:50:14",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 76,
+  "generatedAt" : "2025-06-23 22:50:14",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 77,
+  "generatedAt" : "2025-06-23 22:50:15",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 78,
+  "generatedAt" : "2025-06-23 22:50:15",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 79,
+  "generatedAt" : "2025-06-23 22:50:15",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 80,
+  "generatedAt" : "2025-06-23 22:50:16",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 81,
+  "generatedAt" : "2025-06-23 22:50:16",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 82,
+  "generatedAt" : "2025-06-23 22:50:16",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 83,
+  "generatedAt" : "2025-06-23 22:50:16",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 84,
+  "generatedAt" : "2025-06-23 22:50:16",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 85,
+  "generatedAt" : "2025-06-23 22:50:17",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 86,
+  "generatedAt" : "2025-06-23 22:50:17",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 87,
+  "generatedAt" : "2025-06-23 22:50:17",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 88,
+  "generatedAt" : "2025-06-23 22:50:17",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 89,
+  "generatedAt" : "2025-06-23 22:50:17",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 90,
+  "generatedAt" : "2025-06-23 22:50:18",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 91,
+  "generatedAt" : "2025-06-23 22:50:18",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 30.0
+  }
+}, {
+  "id" : 92,
+  "generatedAt" : "2025-06-23 22:50:18",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 93,
+  "generatedAt" : "2025-06-23 22:50:18",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 94,
+  "generatedAt" : "2025-06-23 22:50:18",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 95,
+  "generatedAt" : "2025-06-23 22:50:18",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 96,
+  "generatedAt" : "2025-06-23 22:50:18",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 97,
+  "generatedAt" : "2025-06-23 22:50:19",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 98,
+  "generatedAt" : "2025-06-23 22:50:19",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 99,
+  "generatedAt" : "2025-06-23 22:50:19",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 100,
+  "generatedAt" : "2025-06-23 22:50:19",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 101,
+  "generatedAt" : "2025-06-23 22:50:19",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 102,
+  "generatedAt" : "2025-06-23 22:50:19",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 70.0
+  }
+}, {
+  "id" : 103,
+  "generatedAt" : "2025-06-23 22:50:41",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 104,
+  "generatedAt" : "2025-06-23 22:50:42",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 46.666666666666664
+  }
+}, {
+  "id" : 105,
+  "generatedAt" : "2025-06-23 22:50:42",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 46.666666666666664
+  }
+}, {
+  "id" : 106,
+  "generatedAt" : "2025-06-23 22:50:42",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > ⚖️ Test Redistribution",
+  "selectedNodeId" : "redistTest_1750711824349",
+  "selectedNodeName" : "⚖️ Test Redistribution",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : null,
+    "finalPercentage" : 33.33333333333333
+  }
+}, {
+  "id" : 107,
+  "generatedAt" : "2025-06-23 22:50:43",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 108,
+  "generatedAt" : "2025-06-23 22:50:43",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 46.666666666666664
+  }
+}, {
+  "id" : 109,
+  "generatedAt" : "2025-06-23 22:50:44",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 46.666666666666664
+  }
+}, {
+  "id" : 110,
+  "generatedAt" : "2025-06-23 22:50:44",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A2",
+  "selectedNodeId" : "subA2",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 20.0
+  }
+}, {
+  "id" : 111,
+  "generatedAt" : "2025-06-23 22:50:45",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > ⚖️ Test Redistribution",
+  "selectedNodeId" : "redistTest_1750711824349",
+  "selectedNodeName" : "⚖️ Test Redistribution",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : null,
+    "finalPercentage" : 33.33333333333333
+  }
+}, {
+  "id" : 112,
+  "generatedAt" : "2025-06-23 22:50:56",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 113,
+  "generatedAt" : "2025-06-23 22:50:57",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 114,
+  "generatedAt" : "2025-06-23 22:50:57",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 115,
+  "generatedAt" : "2025-06-23 22:50:57",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > ⚖️ Test Redistribution",
+  "selectedNodeId" : "redistTest_1750711824349",
+  "selectedNodeName" : "⚖️ Test Redistribution",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : null,
+    "finalPercentage" : 33.33333333333333
+  }
+}, {
+  "id" : 116,
+  "generatedAt" : "2025-06-23 22:50:58",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B2",
+  "selectedNodeId" : "subB2",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B2",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+}, {
+  "id" : 117,
+  "generatedAt" : "2025-06-23 22:50:58",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > \uD83D\uDD39 Sous-élément A1",
+  "selectedNodeId" : "subA1",
+  "selectedNodeName" : "\uD83D\uDD39 Sous-élément A1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#81A1C1",
+    "finalPercentage" : 46.666666666666664
+  }
+}, {
+  "id" : 118,
+  "generatedAt" : "2025-06-23 22:50:59",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > ⚖️ Test Redistribution",
+  "selectedNodeId" : "redistTest_1750711824349",
+  "selectedNodeName" : "⚖️ Test Redistribution",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : null,
+    "finalPercentage" : 33.33333333333333
+  }
+}, {
+  "id" : 119,
+  "generatedAt" : "2025-06-23 22:51:16",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCCA Branche A > ⚖️ Test Redistribution",
+  "selectedNodeId" : "redistTest_1750711824349",
+  "selectedNodeName" : "⚖️ Test Redistribution",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : null,
+    "finalPercentage" : 33.33333333333333
+  }
+}, {
+  "id" : 120,
+  "generatedAt" : "2025-06-23 22:51:18",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > \uD83D\uDCC8 Branche B > \uD83D\uDD38 Sous-élément B1",
+  "selectedNodeId" : "subB1",
+  "selectedNodeName" : "\uD83D\uDD38 Sous-élément B1",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#88C0D0",
+    "finalPercentage" : 50.0
+  }
+} ]

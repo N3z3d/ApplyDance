@@ -1,0 +1,313 @@
+[ {
+  "id" : 1,
+  "generatedAt" : "2025-07-01 17:53:44",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Apec",
+  "selectedNodeId" : "5f1fc302-adb3-4351-abfb-b80f0aa49951",
+  "selectedNodeName" : "Apec",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 1.9607843137254906
+  },
+  "selected" : false
+}, {
+  "id" : 2,
+  "generatedAt" : "2025-07-02 09:18:44",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Business France",
+  "selectedNodeId" : "7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+  "selectedNodeName" : "Business France",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 3,
+  "generatedAt" : "2025-07-03 14:05:35",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Business France",
+  "selectedNodeId" : "7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+  "selectedNodeName" : "Business France",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 4,
+  "generatedAt" : "2025-07-04 16:45:06",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Business France",
+  "selectedNodeId" : "7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+  "selectedNodeName" : "Business France",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 5,
+  "generatedAt" : "2025-07-05 16:22:15",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Indeed",
+  "selectedNodeId" : "3c498c74-237c-4ece-9d5a-9954f91081ca",
+  "selectedNodeName" : "Indeed",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 29.376828975773563
+  },
+  "selected" : false
+}, {
+  "id" : 6,
+  "generatedAt" : "2025-07-07 21:13:29",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Cadremploi",
+  "selectedNodeId" : "d4518973-b9aa-4b28-a430-7e3d19e14d5e",
+  "selectedNodeName" : "Cadremploi",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 2.856080594866874
+  },
+  "selected" : false
+}, {
+  "id" : 7,
+  "generatedAt" : "2025-07-08 20:08:11",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Linkedin",
+  "selectedNodeId" : "3621618d-11e4-402e-a4be-8a588d411ea5",
+  "selectedNodeName" : "Linkedin",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 30.0
+  },
+  "selected" : false
+}, {
+  "id" : 8,
+  "generatedAt" : "2025-07-10 20:48:52",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Business France",
+  "selectedNodeId" : "7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+  "selectedNodeName" : "Business France",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 9,
+  "generatedAt" : "2025-07-11 18:50:31",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Business France",
+  "selectedNodeId" : "7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+  "selectedNodeName" : "Business France",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 10,
+  "generatedAt" : "2025-07-13 14:04:18",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Linkedin",
+  "selectedNodeId" : "3621618d-11e4-402e-a4be-8a588d411ea5",
+  "selectedNodeName" : "Linkedin",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 30.0
+  },
+  "selected" : false
+}, {
+  "id" : 11,
+  "generatedAt" : "2025-07-14 18:27:08",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Spontanée",
+  "selectedNodeId" : "d259c210-da98-4ce2-b5de-b81799d0901e",
+  "selectedNodeName" : "Spontanée",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 12,
+  "generatedAt" : "2025-07-17 19:45:26",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Spontanée",
+  "selectedNodeId" : "d259c210-da98-4ce2-b5de-b81799d0901e",
+  "selectedNodeName" : "Spontanée",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 13,
+  "generatedAt" : "2025-07-21 21:49:34",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Business France",
+  "selectedNodeId" : "7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+  "selectedNodeName" : "Business France",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 14,
+  "generatedAt" : "2025-07-25 14:11:52",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Autre que Rouen > Indeed",
+  "selectedNodeId" : "83f229e0-c74f-4355-81f4-7fcbe102dfd0",
+  "selectedNodeName" : "Indeed",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 29.4
+  },
+  "selected" : false
+}, {
+  "id" : 15,
+  "generatedAt" : "2025-07-26 15:31:18",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Spontanée",
+  "selectedNodeId" : "d259c210-da98-4ce2-b5de-b81799d0901e",
+  "selectedNodeName" : "Spontanée",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 16,
+  "generatedAt" : "2025-07-28 11:02:46",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Spontanée",
+  "selectedNodeId" : "d259c210-da98-4ce2-b5de-b81799d0901e",
+  "selectedNodeName" : "Spontanée",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 17,
+  "generatedAt" : "2025-07-29 13:06:17",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Autre que Rouen > Linkedin",
+  "selectedNodeId" : "f1f41030-86ef-4ea9-91a1-339c96534859",
+  "selectedNodeName" : "Linkedin",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 29.4
+  },
+  "selected" : false
+}, {
+  "id" : 18,
+  "generatedAt" : "2025-08-01 13:33:23",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Spontanée",
+  "selectedNodeId" : "d259c210-da98-4ce2-b5de-b81799d0901e",
+  "selectedNodeName" : "Spontanée",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 19,
+  "generatedAt" : "2025-08-04 14:06:25",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Autre que Rouen > Linkedin",
+  "selectedNodeId" : "f1f41030-86ef-4ea9-91a1-339c96534859",
+  "selectedNodeName" : "Linkedin",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 29.4
+  },
+  "selected" : false
+}, {
+  "id" : 20,
+  "generatedAt" : "2025-08-05 20:00:18",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Welcome to the Jungle",
+  "selectedNodeId" : "882c1342-b62b-417f-afb9-64866377557a",
+  "selectedNodeName" : "Welcome to the Jungle",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 9.822499400335813
+  },
+  "selected" : false
+}, {
+  "id" : 21,
+  "generatedAt" : "2025-08-06 15:57:33",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Indeed",
+  "selectedNodeId" : "3c498c74-237c-4ece-9d5a-9954f91081ca",
+  "selectedNodeName" : "Indeed",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 29.376828975773563
+  },
+  "selected" : false
+}, {
+  "id" : 22,
+  "generatedAt" : "2025-08-10 12:59:25",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Spontanée",
+  "selectedNodeId" : "d259c210-da98-4ce2-b5de-b81799d0901e",
+  "selectedNodeName" : "Spontanée",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 23,
+  "generatedAt" : "2025-08-11 15:29:43",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Business France",
+  "selectedNodeId" : "7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+  "selectedNodeName" : "Business France",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 24,
+  "generatedAt" : "2025-08-13 16:50:54",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Autre que Rouen > Welcome to the Jungle",
+  "selectedNodeId" : "d7584855-d9c0-4c25-b589-c32308a1d276",
+  "selectedNodeName" : "Welcome to the Jungle",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 9.799999999999999
+  },
+  "selected" : false
+}, {
+  "id" : 25,
+  "generatedAt" : "2025-08-14 16:09:00",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Business France",
+  "selectedNodeId" : "7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+  "selectedNodeName" : "Business France",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 26,
+  "generatedAt" : "2025-08-16 18:31:36",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Business France",
+  "selectedNodeId" : "7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+  "selectedNodeName" : "Business France",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+} ]
