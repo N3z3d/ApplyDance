@@ -13,23 +13,173 @@
     "children" : [ {
       "id" : "7551fd37-bfba-4e1a-9d4a-9e3efe282878",
       "label" : "Business France",
-      "percentage" : 50.0,
+      "percentage" : 32.99820456081009,
       "emoji" : "",
       "description" : null,
-      "children" : [ ],
+      "children" : [ {
+        "id" : "job-dev-java-001-7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+        "label" : "Ingénieur développeur logiciel (Java)",
+        "percentage" : 40.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      }, {
+        "id" : "job-methodes-002-7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+        "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+        "percentage" : 25.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      }, {
+        "id" : "job-amelioration-003-7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+        "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+        "percentage" : 15.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      }, {
+        "id" : "job-product-manager-004-7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+        "label" : "Product Manager / Tech Product Manager",
+        "percentage" : 10.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      }, {
+        "id" : "job-product-owner-005-7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+        "label" : "Product Owner",
+        "percentage" : 5.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      }, {
+        "id" : "job-digitalisation-006-7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+        "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+        "percentage" : 3.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      }, {
+        "id" : "job-systemes-embarques-007-7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+        "label" : "Ingénieur systèmes embarqués",
+        "percentage" : 2.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      } ],
       "metadata" : {
-        "color" : "#5E81AC"
+        "color" : "#5E81AC",
+        "expanded" : false
       }
     }, {
       "id" : "d259c210-da98-4ce2-b5de-b81799d0901e",
       "label" : "Spontanée",
-      "percentage" : 50.0,
+      "percentage" : 33.0,
+      "emoji" : "",
+      "description" : null,
+      "children" : [ {
+        "id" : "job-dev-java-001-d259c210-da98-4ce2-b5de-b81799d0901e",
+        "label" : "Ingénieur développeur logiciel (Java)",
+        "percentage" : 40.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      }, {
+        "id" : "job-methodes-002-d259c210-da98-4ce2-b5de-b81799d0901e",
+        "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+        "percentage" : 25.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      }, {
+        "id" : "job-amelioration-003-d259c210-da98-4ce2-b5de-b81799d0901e",
+        "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+        "percentage" : 15.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      }, {
+        "id" : "job-product-manager-004-d259c210-da98-4ce2-b5de-b81799d0901e",
+        "label" : "Product Manager / Tech Product Manager",
+        "percentage" : 10.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      }, {
+        "id" : "job-product-owner-005-d259c210-da98-4ce2-b5de-b81799d0901e",
+        "label" : "Product Owner",
+        "percentage" : 5.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      }, {
+        "id" : "job-digitalisation-006-d259c210-da98-4ce2-b5de-b81799d0901e",
+        "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+        "percentage" : 3.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      }, {
+        "id" : "job-systemes-embarques-007-d259c210-da98-4ce2-b5de-b81799d0901e",
+        "label" : "Ingénieur systèmes embarqués",
+        "percentage" : 2.0,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ ],
+        "metadata" : {
+          "color" : "#5E81AC"
+        }
+      } ],
+      "metadata" : {
+        "color" : "#5E81AC",
+        "expanded" : false
+      }
+    }, {
+      "id" : "0a726e02-7b03-4c56-8bc4-174e3dd012a5",
+      "label" : "Site entreprise",
+      "percentage" : 34.00179543918991,
       "emoji" : "",
       "description" : null,
       "children" : [ ],
-      "metadata" : {
-        "color" : "#5E81AC"
-      }
+      "metadata" : { }
     } ],
     "metadata" : {
       "color" : "#5E81AC",
@@ -50,123 +200,983 @@
       "children" : [ {
         "id" : "3c498c74-237c-4ece-9d5a-9954f91081ca",
         "label" : "Indeed",
-        "percentage" : 29.376828975773563,
+        "percentage" : 5.3986531280642875,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-3c498c74-237c-4ece-9d5a-9954f91081ca",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-3c498c74-237c-4ece-9d5a-9954f91081ca",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-3c498c74-237c-4ece-9d5a-9954f91081ca",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-3c498c74-237c-4ece-9d5a-9954f91081ca",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-3c498c74-237c-4ece-9d5a-9954f91081ca",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-3c498c74-237c-4ece-9d5a-9954f91081ca",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-3c498c74-237c-4ece-9d5a-9954f91081ca",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "882c1342-b62b-417f-afb9-64866377557a",
         "label" : "Welcome to the Jungle",
-        "percentage" : 9.822499400335813,
+        "percentage" : 4.555911649926966,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-882c1342-b62b-417f-afb9-64866377557a",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-882c1342-b62b-417f-afb9-64866377557a",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-882c1342-b62b-417f-afb9-64866377557a",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-882c1342-b62b-417f-afb9-64866377557a",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-882c1342-b62b-417f-afb9-64866377557a",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-882c1342-b62b-417f-afb9-64866377557a",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-882c1342-b62b-417f-afb9-64866377557a",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "a8d924eb-016f-4f7a-bd72-49a68043d53c",
         "label" : "France Travail",
-        "percentage" : 9.856080594866873,
+        "percentage" : 4.878879143024934,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-a8d924eb-016f-4f7a-bd72-49a68043d53c",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-a8d924eb-016f-4f7a-bd72-49a68043d53c",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-a8d924eb-016f-4f7a-bd72-49a68043d53c",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-a8d924eb-016f-4f7a-bd72-49a68043d53c",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-a8d924eb-016f-4f7a-bd72-49a68043d53c",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-a8d924eb-016f-4f7a-bd72-49a68043d53c",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-a8d924eb-016f-4f7a-bd72-49a68043d53c",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "5f1fc302-adb3-4351-abfb-b80f0aa49951",
         "label" : "Apec",
-        "percentage" : 1.9040537299112497,
+        "percentage" : 4.586666666666667,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-5f1fc302-adb3-4351-abfb-b80f0aa49951",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-5f1fc302-adb3-4351-abfb-b80f0aa49951",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-5f1fc302-adb3-4351-abfb-b80f0aa49951",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-5f1fc302-adb3-4351-abfb-b80f0aa49951",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-5f1fc302-adb3-4351-abfb-b80f0aa49951",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-5f1fc302-adb3-4351-abfb-b80f0aa49951",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-5f1fc302-adb3-4351-abfb-b80f0aa49951",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "d4518973-b9aa-4b28-a430-7e3d19e14d5e",
         "label" : "Cadremploi",
-        "percentage" : 2.856080594866874,
+        "percentage" : 5.45107880847824,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-d4518973-b9aa-4b28-a430-7e3d19e14d5e",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-d4518973-b9aa-4b28-a430-7e3d19e14d5e",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-d4518973-b9aa-4b28-a430-7e3d19e14d5e",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-d4518973-b9aa-4b28-a430-7e3d19e14d5e",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-d4518973-b9aa-4b28-a430-7e3d19e14d5e",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-d4518973-b9aa-4b28-a430-7e3d19e14d5e",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-d4518973-b9aa-4b28-a430-7e3d19e14d5e",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "d9792412-33af-4d14-b713-4ebf1b910fc2",
         "label" : "RegionsJob",
-        "percentage" : 2.856080594866874,
+        "percentage" : 5.0747832652652125,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-d9792412-33af-4d14-b713-4ebf1b910fc2",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-d9792412-33af-4d14-b713-4ebf1b910fc2",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-d9792412-33af-4d14-b713-4ebf1b910fc2",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-d9792412-33af-4d14-b713-4ebf1b910fc2",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-d9792412-33af-4d14-b713-4ebf1b910fc2",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-d9792412-33af-4d14-b713-4ebf1b910fc2",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-d9792412-33af-4d14-b713-4ebf1b910fc2",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "2e543dc4-6284-4e2d-b53e-5a26148cbfab",
         "label" : "Monster",
-        "percentage" : 2.856080594866874,
+        "percentage" : 6.055442906038033,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-2e543dc4-6284-4e2d-b53e-5a26148cbfab",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-2e543dc4-6284-4e2d-b53e-5a26148cbfab",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-2e543dc4-6284-4e2d-b53e-5a26148cbfab",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-2e543dc4-6284-4e2d-b53e-5a26148cbfab",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-2e543dc4-6284-4e2d-b53e-5a26148cbfab",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-2e543dc4-6284-4e2d-b53e-5a26148cbfab",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-2e543dc4-6284-4e2d-b53e-5a26148cbfab",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "d541eb3f-ed6c-4d51-b0ec-5603451a9dd7",
         "label" : "Glassdoor",
-        "percentage" : 2.856080594866874,
+        "percentage" : 6.436005249570643,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-d541eb3f-ed6c-4d51-b0ec-5603451a9dd7",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-d541eb3f-ed6c-4d51-b0ec-5603451a9dd7",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-d541eb3f-ed6c-4d51-b0ec-5603451a9dd7",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-d541eb3f-ed6c-4d51-b0ec-5603451a9dd7",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-d541eb3f-ed6c-4d51-b0ec-5603451a9dd7",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-d541eb3f-ed6c-4d51-b0ec-5603451a9dd7",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-d541eb3f-ed6c-4d51-b0ec-5603451a9dd7",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "0df64b79-8985-45d1-af59-1da8b9de8029",
         "label" : "JobTeaser",
-        "percentage" : 2.856080594866874,
+        "percentage" : 6.02640301511294,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-0df64b79-8985-45d1-af59-1da8b9de8029",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-0df64b79-8985-45d1-af59-1da8b9de8029",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-0df64b79-8985-45d1-af59-1da8b9de8029",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-0df64b79-8985-45d1-af59-1da8b9de8029",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-0df64b79-8985-45d1-af59-1da8b9de8029",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-0df64b79-8985-45d1-af59-1da8b9de8029",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-0df64b79-8985-45d1-af59-1da8b9de8029",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "4a62defb-5d7d-46ce-9ca2-44bd5f2aafcc",
         "label" : "HelloWork",
-        "percentage" : 2.856080594866874,
+        "percentage" : 7.231895893487151,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-4a62defb-5d7d-46ce-9ca2-44bd5f2aafcc",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-4a62defb-5d7d-46ce-9ca2-44bd5f2aafcc",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-4a62defb-5d7d-46ce-9ca2-44bd5f2aafcc",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-4a62defb-5d7d-46ce-9ca2-44bd5f2aafcc",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-4a62defb-5d7d-46ce-9ca2-44bd5f2aafcc",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-4a62defb-5d7d-46ce-9ca2-44bd5f2aafcc",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-4a62defb-5d7d-46ce-9ca2-44bd5f2aafcc",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "3621618d-11e4-402e-a4be-8a588d411ea5",
         "label" : "Linkedin",
-        "percentage" : 30.0,
+        "percentage" : 4.971014153460072,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-3621618d-11e4-402e-a4be-8a588d411ea5",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-3621618d-11e4-402e-a4be-8a588d411ea5",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-3621618d-11e4-402e-a4be-8a588d411ea5",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-3621618d-11e4-402e-a4be-8a588d411ea5",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-3621618d-11e4-402e-a4be-8a588d411ea5",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-3621618d-11e4-402e-a4be-8a588d411ea5",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-3621618d-11e4-402e-a4be-8a588d411ea5",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "0e63fbb8-0317-418d-bebb-c146867816a0",
         "label" : "Spontanée à Rouen",
-        "percentage" : 1.9040537299112492,
+        "percentage" : 5.999932787571517,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ {
+          "id" : "job-dev-java-001-0e63fbb8-0317-418d-bebb-c146867816a0",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-0e63fbb8-0317-418d-bebb-c146867816a0",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-0e63fbb8-0317-418d-bebb-c146867816a0",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-0e63fbb8-0317-418d-bebb-c146867816a0",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-0e63fbb8-0317-418d-bebb-c146867816a0",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-0e63fbb8-0317-418d-bebb-c146867816a0",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-0e63fbb8-0317-418d-bebb-c146867816a0",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
+        "metadata" : {
+          "color" : "#5E81AC",
+          "expanded" : false
+        }
+      }, {
+        "id" : "8378be28-399e-43ef-838c-20ba2c2b6464",
+        "label" : "Site entreprise",
+        "percentage" : 33.33333333333333,
         "emoji" : "",
         "description" : null,
         "children" : [ ],
-        "metadata" : {
-          "color" : "#5E81AC"
-        }
+        "metadata" : { }
       } ],
       "metadata" : {
         "color" : "#5E81AC",
@@ -181,123 +1191,983 @@
       "children" : [ {
         "id" : "83f229e0-c74f-4355-81f4-7fcbe102dfd0",
         "label" : "Indeed",
-        "percentage" : 29.4,
+        "percentage" : 4.9455005517290385,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-83f229e0-c74f-4355-81f4-7fcbe102dfd0",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-83f229e0-c74f-4355-81f4-7fcbe102dfd0",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-83f229e0-c74f-4355-81f4-7fcbe102dfd0",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-83f229e0-c74f-4355-81f4-7fcbe102dfd0",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-83f229e0-c74f-4355-81f4-7fcbe102dfd0",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-83f229e0-c74f-4355-81f4-7fcbe102dfd0",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-83f229e0-c74f-4355-81f4-7fcbe102dfd0",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "d7584855-d9c0-4c25-b589-c32308a1d276",
         "label" : "Welcome to the Jungle",
-        "percentage" : 9.799999999999999,
+        "percentage" : 5.333159562072213,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-d7584855-d9c0-4c25-b589-c32308a1d276",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-d7584855-d9c0-4c25-b589-c32308a1d276",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-d7584855-d9c0-4c25-b589-c32308a1d276",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-d7584855-d9c0-4c25-b589-c32308a1d276",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-d7584855-d9c0-4c25-b589-c32308a1d276",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-d7584855-d9c0-4c25-b589-c32308a1d276",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-d7584855-d9c0-4c25-b589-c32308a1d276",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "36f0cde3-4d44-40e2-9778-ddad8b5b97b8",
         "label" : "France Travail",
-        "percentage" : 9.799999999999999,
+        "percentage" : 4.466325258804596,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-36f0cde3-4d44-40e2-9778-ddad8b5b97b8",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-36f0cde3-4d44-40e2-9778-ddad8b5b97b8",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-36f0cde3-4d44-40e2-9778-ddad8b5b97b8",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-36f0cde3-4d44-40e2-9778-ddad8b5b97b8",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-36f0cde3-4d44-40e2-9778-ddad8b5b97b8",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-36f0cde3-4d44-40e2-9778-ddad8b5b97b8",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-36f0cde3-4d44-40e2-9778-ddad8b5b97b8",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "79d2b2e9-5a52-41c7-a1a7-47f9226cf985",
         "label" : "Apec",
-        "percentage" : 2.94,
+        "percentage" : 5.287320923508059,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-79d2b2e9-5a52-41c7-a1a7-47f9226cf985",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-79d2b2e9-5a52-41c7-a1a7-47f9226cf985",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-79d2b2e9-5a52-41c7-a1a7-47f9226cf985",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-79d2b2e9-5a52-41c7-a1a7-47f9226cf985",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-79d2b2e9-5a52-41c7-a1a7-47f9226cf985",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-79d2b2e9-5a52-41c7-a1a7-47f9226cf985",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-79d2b2e9-5a52-41c7-a1a7-47f9226cf985",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "b0a5455c-e2cc-4ec9-9090-376d5cbcc589",
         "label" : "Cadremploi",
-        "percentage" : 1.9599999999999997,
+        "percentage" : 4.971225448952816,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-b0a5455c-e2cc-4ec9-9090-376d5cbcc589",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-b0a5455c-e2cc-4ec9-9090-376d5cbcc589",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-b0a5455c-e2cc-4ec9-9090-376d5cbcc589",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-b0a5455c-e2cc-4ec9-9090-376d5cbcc589",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-b0a5455c-e2cc-4ec9-9090-376d5cbcc589",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-b0a5455c-e2cc-4ec9-9090-376d5cbcc589",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-b0a5455c-e2cc-4ec9-9090-376d5cbcc589",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "effae6a5-eb97-4b6d-af0e-9ae2daaa7144",
         "label" : "RegionsJob",
-        "percentage" : 2.94,
+        "percentage" : 5.911510719020969,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-effae6a5-eb97-4b6d-af0e-9ae2daaa7144",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-effae6a5-eb97-4b6d-af0e-9ae2daaa7144",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-effae6a5-eb97-4b6d-af0e-9ae2daaa7144",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-effae6a5-eb97-4b6d-af0e-9ae2daaa7144",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-effae6a5-eb97-4b6d-af0e-9ae2daaa7144",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-effae6a5-eb97-4b6d-af0e-9ae2daaa7144",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-effae6a5-eb97-4b6d-af0e-9ae2daaa7144",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "762a7086-3af2-4b15-8c13-4e4cda0570c2",
         "label" : "Monster",
-        "percentage" : 2.94,
+        "percentage" : 5.505658785756647,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-762a7086-3af2-4b15-8c13-4e4cda0570c2",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-762a7086-3af2-4b15-8c13-4e4cda0570c2",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-762a7086-3af2-4b15-8c13-4e4cda0570c2",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-762a7086-3af2-4b15-8c13-4e4cda0570c2",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-762a7086-3af2-4b15-8c13-4e4cda0570c2",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-762a7086-3af2-4b15-8c13-4e4cda0570c2",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-762a7086-3af2-4b15-8c13-4e4cda0570c2",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "399247f8-4f6b-4ee7-9259-b73965a46f55",
         "label" : "Glassdoor",
-        "percentage" : 2.94,
+        "percentage" : 6.572211272761971,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-399247f8-4f6b-4ee7-9259-b73965a46f55",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-399247f8-4f6b-4ee7-9259-b73965a46f55",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-399247f8-4f6b-4ee7-9259-b73965a46f55",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-399247f8-4f6b-4ee7-9259-b73965a46f55",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-399247f8-4f6b-4ee7-9259-b73965a46f55",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-399247f8-4f6b-4ee7-9259-b73965a46f55",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-399247f8-4f6b-4ee7-9259-b73965a46f55",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "6a4e29b9-a521-4598-a373-936a7efcccdc",
         "label" : "JobTeaser",
-        "percentage" : 2.94,
+        "percentage" : 6.144016808694814,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-6a4e29b9-a521-4598-a373-936a7efcccdc",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-6a4e29b9-a521-4598-a373-936a7efcccdc",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-6a4e29b9-a521-4598-a373-936a7efcccdc",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-6a4e29b9-a521-4598-a373-936a7efcccdc",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-6a4e29b9-a521-4598-a373-936a7efcccdc",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-6a4e29b9-a521-4598-a373-936a7efcccdc",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-6a4e29b9-a521-4598-a373-936a7efcccdc",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "001d4aa9-4820-4a5a-9f69-0f7357a9c6a8",
         "label" : "HelloWork",
-        "percentage" : 2.94,
+        "percentage" : 5.999999999999999,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-001d4aa9-4820-4a5a-9f69-0f7357a9c6a8",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-001d4aa9-4820-4a5a-9f69-0f7357a9c6a8",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-001d4aa9-4820-4a5a-9f69-0f7357a9c6a8",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-001d4aa9-4820-4a5a-9f69-0f7357a9c6a8",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-001d4aa9-4820-4a5a-9f69-0f7357a9c6a8",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-001d4aa9-4820-4a5a-9f69-0f7357a9c6a8",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-001d4aa9-4820-4a5a-9f69-0f7357a9c6a8",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "f1f41030-86ef-4ea9-91a1-339c96534859",
         "label" : "Linkedin",
-        "percentage" : 29.4,
+        "percentage" : 5.442244545115207,
         "emoji" : "",
         "description" : null,
-        "children" : [ ],
+        "children" : [ {
+          "id" : "job-dev-java-001-f1f41030-86ef-4ea9-91a1-339c96534859",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-f1f41030-86ef-4ea9-91a1-339c96534859",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-f1f41030-86ef-4ea9-91a1-339c96534859",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-f1f41030-86ef-4ea9-91a1-339c96534859",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-f1f41030-86ef-4ea9-91a1-339c96534859",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-f1f41030-86ef-4ea9-91a1-339c96534859",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-f1f41030-86ef-4ea9-91a1-339c96534859",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
         "metadata" : {
-          "color" : "#5E81AC"
+          "color" : "#5E81AC",
+          "expanded" : false
         }
       }, {
         "id" : "ee56a7e7-0bbc-4556-a8ec-239a23c36afd",
         "label" : "Spontanée autre que Rouen",
-        "percentage" : 2.0,
+        "percentage" : 6.087492790250333,
+        "emoji" : "",
+        "description" : null,
+        "children" : [ {
+          "id" : "job-dev-java-001-ee56a7e7-0bbc-4556-a8ec-239a23c36afd",
+          "label" : "Ingénieur développeur logiciel (Java)",
+          "percentage" : 40.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-methodes-002-ee56a7e7-0bbc-4556-a8ec-239a23c36afd",
+          "label" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+          "percentage" : 25.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-amelioration-003-ee56a7e7-0bbc-4556-a8ec-239a23c36afd",
+          "label" : "Ingénieur amélioration continue / lean / performance industrielle",
+          "percentage" : 15.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-manager-004-ee56a7e7-0bbc-4556-a8ec-239a23c36afd",
+          "label" : "Product Manager / Tech Product Manager",
+          "percentage" : 10.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-product-owner-005-ee56a7e7-0bbc-4556-a8ec-239a23c36afd",
+          "label" : "Product Owner",
+          "percentage" : 5.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-digitalisation-006-ee56a7e7-0bbc-4556-a8ec-239a23c36afd",
+          "label" : "Ingénieur digitalisation / Ingénieur Industrie 4.0",
+          "percentage" : 3.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        }, {
+          "id" : "job-systemes-embarques-007-ee56a7e7-0bbc-4556-a8ec-239a23c36afd",
+          "label" : "Ingénieur systèmes embarqués",
+          "percentage" : 2.0,
+          "emoji" : "",
+          "description" : null,
+          "children" : [ ],
+          "metadata" : {
+            "color" : "#5E81AC"
+          }
+        } ],
+        "metadata" : {
+          "color" : "#5E81AC",
+          "expanded" : false
+        }
+      }, {
+        "id" : "47414d1b-938b-44b5-ab86-b9828a402b2b",
+        "label" : "Site entreprise",
+        "percentage" : 33.333333333333336,
         "emoji" : "",
         "description" : null,
         "children" : [ ],
-        "metadata" : {
-          "color" : "#5E81AC"
-        }
+        "metadata" : { }
       } ],
       "metadata" : {
         "color" : "#5E81AC",

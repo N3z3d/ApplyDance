@@ -3,9 +3,12 @@ package com.applydance.gui;
 import com.applydance.model.TreeNode;
 import com.applydance.service.TreeConfigurationService;
 import java.util.UUID;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
+import javafx.geometry.Side;
 import javafx.scene.Node;
 import javafx.scene.control.*;
 import javafx.scene.input.*;
@@ -15,6 +18,7 @@ import javafx.scene.text.FontWeight;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
+import javafx.util.Duration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -95,8 +99,8 @@ public class TreeDragDropController {
         titleLabel.setFont(Font.font("System", FontWeight.BOLD, 24));
         titleLabel.setStyle("-fx-text-fill: #2E3440; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0, 0, 1);");
         
-        // Description interactive
-        Label descLabel = new Label("Glissez-déposez pour réorganiser • Double-clic pour éditer/supprimer");
+        // Description interactive améliorée
+        Label descLabel = new Label("🎯 Clic simple pour éditer • Glisser-déposer pour réorganiser • Menu ⋯ pour plus d'options");
         descLabel.setFont(Font.font("System", FontWeight.NORMAL, 14));
         descLabel.setStyle("-fx-text-fill: #5E81AC; -fx-background-color: rgba(94, 129, 172, 0.1); " +
                           "-fx-background-radius: 15; -fx-padding: 8;");
@@ -235,7 +239,7 @@ public class TreeDragDropController {
     }
     
     /**
-     * Crée la ligne d'affichage d'un nœud
+     * Crée la ligne d'affichage d'un nœud avec édition inline optimisée
      */
     private HBox createNodeRow(TreeNode node, boolean isRoot) {
         HBox row = new HBox(10);
@@ -277,119 +281,46 @@ public class TreeDragDropController {
                                "-fx-font-weight: bold; -fx-min-width: 25; -fx-max-width: 25;");
         addChildButton.setOnAction(e -> showAddChildDialog(node));
         
-        // Label du nœud
-        Label nameLabel = new Label(node.getName());
+        // Label du nœud avec édition inline pour le nom
+        Label nameLabel = createInlineEditableLabel(node, "name");
         nameLabel.setFont(Font.font("System", FontWeight.BOLD, 14));
-        nameLabel.setStyle("-fx-text-fill: #2E3440;");
+        nameLabel.setStyle("-fx-text-fill: #2E3440; -fx-cursor: hand;");
         
-        // Affichage du pourcentage avec validation
-        Label percentageLabel = new Label(String.format("%.1f%%", node.getPercentage()));
-        percentageLabel.setFont(Font.font("System", FontWeight.BOLD, 12));
+        // Composant de pourcentage avec édition inline optimisée
+        Node percentageComponent = createInlineEditablePercentage(node, isRoot);
         
-        logger.debug("Affichage pourcentage pour {} : {}%", node.getLabel(), node.getPercentage());
+        // Indicateur de validation pour l'ensemble des frères/sœurs
+        Label gapIndicator = createGapIndicator(node);
         
-        // Vérifier si les pourcentages des frères/sœurs sont valides (somme = 100%)
-        boolean isValidPercentage = true;
-        Label gapIndicator = null; // Indicateur d'écart
-        TreeNode parent = findParentNode(node);
-        if (parent != null && parent.hasChildren()) {
-            double sum = parent.getChildren().stream()
-                    .mapToDouble(TreeNode::getPercentage)
-                    .sum();
-            isValidPercentage = Math.abs(sum - 100.0) < 0.1;
-            
-            // Calculer et afficher l'écart uniquement pour le premier enfant (éviter la duplication)
-            if (parent.getChildren().indexOf(node) == 0 && !isValidPercentage) {
-                double gap = 100.0 - sum;
-                String gapText;
-                String gapColor;
-                
-                if (gap > 0.1) {
-                    // Il manque des pourcentages
-                    gapText = String.format("[-%.1f%%]", gap);
-                    gapColor = "#D08770"; // Orange pour manquant
-                } else if (gap < -0.1) {
-                    // Il y a trop de pourcentages
-                    gapText = String.format("[+%.1f%%]", Math.abs(gap));
-                    gapColor = "#BF616A"; // Rouge pour excès
-                } else {
-                    gapText = "[✓]";
-                    gapColor = "#A3BE8C"; // Vert pour exactement 100%
-                }
-                
-                gapIndicator = new Label(gapText);
-                gapIndicator.setFont(Font.font("System", FontWeight.BOLD, 10));
-                gapIndicator.setStyle("-fx-text-fill: " + gapColor + "; " +
-                                    "-fx-background-color: rgba(255,255,255,0.9); " +
-                                    "-fx-background-radius: 6; " +
-                                    "-fx-padding: 2 6; " +
-                                    "-fx-border-color: " + gapColor + "; " +
-                                    "-fx-border-radius: 6; " +
-                                    "-fx-border-width: 1;");
-                
-                // Tooltip explicatif pour l'indicateur
-                String tooltipText = gap > 0.1 ? 
-                    String.format("Il manque %.1f%% pour atteindre 100%%", gap) :
-                    String.format("Dépassement de %.1f%% par rapport à 100%%", Math.abs(gap));
-                Tooltip gapTooltip = new Tooltip(tooltipText);
-                gapTooltip.setStyle("-fx-background-color: " + gapColor + "; -fx-text-fill: white; -fx-background-radius: 6;");
-                Tooltip.install(gapIndicator, gapTooltip);
-            }
-        }
+        // Bouton d'actions contextuelles (menu trois points)
+        Button actionButton = createContextualActionButton(node, isRoot);
         
-        // Utiliser une couleur par défaut sûre si node.getColor() est null
-        String nodeColor = node.getColor();
-        if (nodeColor == null || nodeColor.trim().isEmpty()) {
-            nodeColor = DEFAULT_COLOR;
-            logger.debug("Couleur null pour {}, utilisation de la couleur par défaut", node.getLabel());
-        }
-        
-        String percentageColor = isValidPercentage ? nodeColor : "#BF616A";
-        String backgroundColor = isValidPercentage ? "rgba(255,255,255,0.8)" : "rgba(191, 97, 106, 0.2)";
-        
-        percentageLabel.setStyle("-fx-text-fill: " + percentageColor + "; " +
-                                "-fx-background-color: " + backgroundColor + "; " +
-                                "-fx-background-radius: 8; " +
-                                "-fx-padding: 4 8;");
-        
-        logger.debug("Style appliqué au pourcentage : {}", percentageLabel.getStyle());
-        
-        // Tooltip d'information amélioré
-        if (!isValidPercentage && parent != null) {
-            double sum = parent.getChildren().stream()
-                    .mapToDouble(TreeNode::getPercentage)
-                    .sum();
-            String message = sum < 100 ? 
-                String.format("⚠️ Somme des enfants: %.1f%% (il manque %.1f%%)", sum, 100.0 - sum) :
-                String.format("⚠️ Somme des enfants: %.1f%% (dépassement de %.1f%%)", sum, sum - 100.0);
-            Tooltip percentageTooltip = new Tooltip(message);
-            percentageTooltip.setStyle("-fx-background-color: #BF616A; -fx-text-fill: white; -fx-background-radius: 6;");
-            Tooltip.install(percentageLabel, percentageTooltip);
-        }
-        
-        // Spacer
+        // Spacer pour pousser les éléments à droite
         Region spacer = new Region();
         HBox.setHgrow(spacer, Priority.ALWAYS);
         
-        // Ajouter les éléments à la ligne (avec l'indicateur d'écart si présent)
+        // Assemblage des composants avec le nouvel agencement UX optimisé
         if (gapIndicator != null) {
-            row.getChildren().addAll(expandButton, addChildButton, nameLabel, spacer, percentageLabel, gapIndicator);
+            row.getChildren().addAll(expandButton, addChildButton, nameLabel, spacer, 
+                                   percentageComponent, gapIndicator, actionButton);
         } else {
-            row.getChildren().addAll(expandButton, addChildButton, nameLabel, spacer, percentageLabel);
+            row.getChildren().addAll(expandButton, addChildButton, nameLabel, spacer, 
+                                   percentageComponent, actionButton);
         }
         
-        // Double-clic sur toute la ligne pour éditer/supprimer
-        row.setStyle(row.getStyle() + "-fx-cursor: hand;");
-        row.setOnMouseClicked(e -> {
-            if (e.getClickCount() == 2) {
-                showEditDeleteDialog(node);
+        // Hover effect pour améliorer l'interaction
+        row.setOnMouseEntered(e -> {
+            String currentStyle = row.getStyle();
+            if (!currentStyle.contains("-fx-background-color: rgba(94, 129, 172, 0.1)")) {
+                row.setStyle(currentStyle + "-fx-background-color: rgba(94, 129, 172, 0.1);");
             }
         });
         
-        // Tooltip pour indiquer le double-clic
-        Tooltip tooltip = new Tooltip("Double-cliquez pour éditer ou supprimer");
-        tooltip.setStyle("-fx-background-color: #2E3440; -fx-text-fill: white; -fx-background-radius: 6;");
-        Tooltip.install(row, tooltip);
+        row.setOnMouseExited(e -> {
+            String currentStyle = row.getStyle();
+            row.setStyle(currentStyle.replace("-fx-background-color: rgba(94, 129, 172, 0.1);", 
+                                           "-fx-background-color: " + rowBackgroundColor + ";"));
+        });
         
         // Configuration du drag & drop
         setupDragAndDrop(row, node, isRoot);
@@ -398,7 +329,452 @@ public class TreeDragDropController {
     }
     
     /**
-     * Affiche la boîte de dialogue combinée éditer/supprimer
+     * Crée un label éditable inline pour les propriétés de nœud
+     */
+    private Label createInlineEditableLabel(TreeNode node, String property) {
+        Label label = new Label();
+        
+        // Initialiser le contenu selon la propriété
+        if ("name".equals(property)) {
+            label.setText(node.getName());
+        }
+        
+        // Styles de base
+        label.setStyle("-fx-cursor: hand; -fx-padding: 4 8; -fx-background-radius: 6;");
+        
+        // Tooltip instructif
+        Tooltip tooltip = new Tooltip("Cliquez pour éditer");
+        tooltip.setStyle("-fx-background-color: #2E3440; -fx-text-fill: white; -fx-background-radius: 6;");
+        Tooltip.install(label, tooltip);
+        
+        // Événement de clic pour l'édition inline
+        label.setOnMouseClicked(e -> {
+            if (e.getClickCount() == 1) {
+                activateInlineEdit(label, node, property);
+            }
+        });
+        
+        return label;
+    }
+    
+    /**
+     * Crée un composant d'édition inline pour les pourcentages
+     */
+    private Node createInlineEditablePercentage(TreeNode node, boolean isRoot) {
+        Label percentageLabel = new Label(String.format("%.1f%%", node.getPercentage()));
+        percentageLabel.setFont(Font.font("System", FontWeight.BOLD, 12));
+        
+        // Validation et style du pourcentage
+        TreeNode parent = findParentNode(node);
+        boolean isValidPercentage = true;
+        if (parent != null && parent.hasChildren()) {
+            double sum = parent.getChildren().stream()
+                    .mapToDouble(TreeNode::getPercentage)
+                    .sum();
+            isValidPercentage = Math.abs(sum - 100.0) < 0.1;
+        }
+        
+        String nodeColor = node.getColor() != null ? node.getColor() : DEFAULT_COLOR;
+        String percentageColor = isValidPercentage ? nodeColor : "#BF616A";
+        String backgroundColor = isValidPercentage ? "rgba(255,255,255,0.8)" : "rgba(191, 97, 106, 0.2)";
+        
+        percentageLabel.setStyle("-fx-text-fill: " + percentageColor + "; " +
+                                "-fx-background-color: " + backgroundColor + "; " +
+                                "-fx-background-radius: 8; " +
+                                "-fx-padding: 4 8; " +
+                                "-fx-cursor: hand;");
+        
+        // Tooltip informatif amélioré
+        String tooltipText = "Cliquez pour éditer le pourcentage";
+        if (!isValidPercentage && parent != null) {
+            double sum = parent.getChildren().stream()
+                    .mapToDouble(TreeNode::getPercentage)
+                    .sum();
+            tooltipText = sum < 100 ? 
+                String.format("⚠️ Somme: %.1f%% (manque %.1f%%) • Cliquez pour éditer", sum, 100.0 - sum) :
+                String.format("⚠️ Somme: %.1f%% (excès %.1f%%) • Cliquez pour éditer", sum, sum - 100.0);
+        }
+        
+        Tooltip percentageTooltip = new Tooltip(tooltipText);
+        percentageTooltip.setStyle("-fx-background-color: " + percentageColor + "; -fx-text-fill: white; -fx-background-radius: 6;");
+        Tooltip.install(percentageLabel, percentageTooltip);
+        
+        // Clic simple pour éditer
+        percentageLabel.setOnMouseClicked(e -> {
+            if (e.getClickCount() == 1) {
+                activateInlinePercentageEdit(percentageLabel, node);
+            }
+        });
+        
+        return percentageLabel;
+    }
+    
+    /**
+     * Active l'édition inline pour un label de texte
+     */
+    private void activateInlineEdit(Label label, TreeNode node, String property) {
+        // Sauvegarder le contenu original
+        String originalText = label.getText();
+        
+        // Créer le champ d'édition
+        TextField textField = new TextField(originalText);
+        textField.setStyle("-fx-background-color: white; -fx-border-color: #5E81AC; " +
+                          "-fx-border-width: 2; -fx-border-radius: 6; -fx-padding: 4 8;");
+        textField.setPrefWidth(label.getWidth());
+        textField.selectAll();
+        
+        // Remplacer le label par le TextField
+        HBox parent = (HBox) label.getParent();
+        int index = parent.getChildren().indexOf(label);
+        parent.getChildren().set(index, textField);
+        
+        // Focus sur le champ
+        Platform.runLater(() -> textField.requestFocus());
+        
+        // Fonction de validation et sauvegarde
+        Runnable saveEdit = () -> {
+            String newText = textField.getText().trim();
+            if (!newText.isEmpty() && !newText.equals(originalText)) {
+                // Appliquer la modification
+                if ("name".equals(property)) {
+                    node.setName(newText);
+                    label.setText(newText);
+                }
+                
+                // Sauvegarder
+                configService.updateNode(node);
+                
+                // Feedback visuel
+                showQuickFeedback(textField, "#A3BE8C", "✓");
+            } else {
+                label.setText(originalText);
+            }
+            
+            // Restaurer le label
+            parent.getChildren().set(index, label);
+        };
+        
+        // Annulation
+        Runnable cancelEdit = () -> {
+            label.setText(originalText);
+            parent.getChildren().set(index, label);
+        };
+        
+        // Gestionnaires d'événements
+        textField.setOnAction(e -> saveEdit.run());
+        textField.setOnKeyPressed(e -> {
+            if (e.getCode() == KeyCode.ESCAPE) {
+                cancelEdit.run();
+            }
+        });
+        textField.focusedProperty().addListener((obs, oldVal, newVal) -> {
+            if (!newVal) { // Perte de focus
+                saveEdit.run();
+            }
+        });
+    }
+    
+    /**
+     * Active l'édition inline pour un pourcentage
+     */
+    private void activateInlinePercentageEdit(Label percentageLabel, TreeNode node) {
+        // Sauvegarder la valeur originale
+        double originalValue = node.getPercentage();
+        
+        // Créer le spinner d'édition
+        Spinner<Double> spinner = new Spinner<>(0.0, 100.0, originalValue, 0.5);
+        spinner.setEditable(true);
+        spinner.setPrefWidth(80);
+        spinner.setStyle("-fx-background-color: white; -fx-border-color: #5E81AC; " +
+                        "-fx-border-width: 2; -fx-border-radius: 6;");
+        
+        // Remplacer le label par le spinner
+        HBox parent = (HBox) percentageLabel.getParent();
+        int index = parent.getChildren().indexOf(percentageLabel);
+        parent.getChildren().set(index, spinner);
+        
+        // Focus sur le spinner
+        Platform.runLater(() -> {
+            spinner.requestFocus();
+            spinner.getEditor().selectAll();
+        });
+        
+        // Validation temps réel pendant la saisie
+        spinner.valueProperty().addListener((obs, oldVal, newVal) -> {
+            if (newVal != null) {
+                // Mettre à jour temporairement pour le preview
+                updatePercentagePreview(percentageLabel, newVal, node);
+            }
+        });
+        
+        // Fonction de validation et sauvegarde
+        Runnable saveEdit = () -> {
+            double newValue = spinner.getValue();
+            if (newValue != originalValue) {
+                // Appliquer la modification
+                node.setPercentage(newValue);
+                
+                // Mettre à jour le label
+                percentageLabel.setText(String.format("%.1f%%", newValue));
+                updatePercentageStyle(percentageLabel, node);
+                
+                // Sauvegarder
+                configService.updateNode(node);
+                
+                // Feedback visuel
+                showQuickFeedback(spinner, "#A3BE8C", "✓");
+                
+                // Rafraîchir l'affichage pour mettre à jour les indicateurs de validation
+                Platform.runLater(() -> refreshTreeDisplay(configService.getRootNode()));
+            }
+            
+            // Restaurer le label
+            Platform.runLater(() -> parent.getChildren().set(index, percentageLabel));
+        };
+        
+        // Annulation
+        Runnable cancelEdit = () -> {
+            percentageLabel.setText(String.format("%.1f%%", originalValue));
+            updatePercentageStyle(percentageLabel, node);
+            parent.getChildren().set(index, percentageLabel);
+        };
+        
+        // Gestionnaires d'événements
+        spinner.getEditor().setOnAction(e -> saveEdit.run());
+        spinner.setOnKeyPressed(e -> {
+            if (e.getCode() == KeyCode.ESCAPE) {
+                cancelEdit.run();
+            }
+        });
+        spinner.focusedProperty().addListener((obs, oldVal, newVal) -> {
+            if (!newVal) { // Perte de focus
+                saveEdit.run();
+            }
+        });
+    }
+    
+    /**
+     * Met à jour le style du label de pourcentage selon la validation
+     */
+    private void updatePercentageStyle(Label percentageLabel, TreeNode node) {
+        TreeNode parent = findParentNode(node);
+        boolean isValidPercentage = true;
+        if (parent != null && parent.hasChildren()) {
+            double sum = parent.getChildren().stream()
+                    .mapToDouble(TreeNode::getPercentage)
+                    .sum();
+            isValidPercentage = Math.abs(sum - 100.0) < 0.1;
+        }
+        
+        String nodeColor = node.getColor() != null ? node.getColor() : DEFAULT_COLOR;
+        String percentageColor = isValidPercentage ? nodeColor : "#BF616A";
+        String backgroundColor = isValidPercentage ? "rgba(255,255,255,0.8)" : "rgba(191, 97, 106, 0.2)";
+        
+        percentageLabel.setStyle("-fx-text-fill: " + percentageColor + "; " +
+                                "-fx-background-color: " + backgroundColor + "; " +
+                                "-fx-background-radius: 8; " +
+                                "-fx-padding: 4 8; " +
+                                "-fx-cursor: hand;");
+    }
+    
+    /**
+     * Aperçu temps réel du pourcentage pendant l'édition
+     */
+    private void updatePercentagePreview(Label percentageLabel, double newValue, TreeNode node) {
+        // Cette méthode peut être étendue pour un feedback temps réel plus sophistiqué
+        // Pour l'instant, on utilise updatePercentageStyle après sauvegarde
+    }
+    
+    /**
+     * Crée l'indicateur d'écart de pourcentage pour les groupes de frères/sœurs
+     */
+    private Label createGapIndicator(TreeNode node) {
+        TreeNode parent = findParentNode(node);
+        if (parent == null || !parent.hasChildren()) {
+            return null;
+        }
+        
+        // Afficher uniquement sur le premier enfant pour éviter la duplication
+        if (parent.getChildren().indexOf(node) != 0) {
+            return null;
+        }
+        
+        double sum = parent.getChildren().stream()
+                .mapToDouble(TreeNode::getPercentage)
+                .sum();
+        boolean isValidPercentage = Math.abs(sum - 100.0) < 0.1;
+        
+        if (isValidPercentage) {
+            return null; // Pas d'indicateur si tout est correct
+        }
+        
+        double gap = 100.0 - sum;
+        String gapText;
+        String gapColor;
+        
+        if (gap > 0.1) {
+            gapText = String.format("[-%.1f%%]", gap);
+            gapColor = "#D08770"; // Orange pour manquant
+        } else {
+            gapText = String.format("[+%.1f%%]", Math.abs(gap));
+            gapColor = "#BF616A"; // Rouge pour excès
+        }
+        
+        Label gapIndicator = new Label(gapText);
+        gapIndicator.setFont(Font.font("System", FontWeight.BOLD, 10));
+        gapIndicator.setStyle("-fx-text-fill: " + gapColor + "; " +
+                            "-fx-background-color: rgba(255,255,255,0.9); " +
+                            "-fx-background-radius: 6; " +
+                            "-fx-padding: 2 6; " +
+                            "-fx-border-color: " + gapColor + "; " +
+                            "-fx-border-radius: 6; " +
+                            "-fx-border-width: 1;");
+        
+        // Tooltip explicatif
+        String tooltipText = gap > 0.1 ? 
+            String.format("Il manque %.1f%% pour atteindre 100%%", gap) :
+            String.format("Dépassement de %.1f%% par rapport à 100%%", Math.abs(gap));
+        Tooltip gapTooltip = new Tooltip(tooltipText);
+        gapTooltip.setStyle("-fx-background-color: " + gapColor + "; -fx-text-fill: white; -fx-background-radius: 6;");
+        Tooltip.install(gapIndicator, gapTooltip);
+        
+        return gapIndicator;
+    }
+    
+    /**
+     * Crée le bouton d'actions contextuelles (menu trois points)
+     */
+    private Button createContextualActionButton(TreeNode node, boolean isRoot) {
+        Button actionButton = new Button("⋯");
+        actionButton.setStyle("-fx-background-color: transparent; " +
+                             "-fx-text-fill: #5E81AC; " +
+                             "-fx-font-weight: bold; " +
+                             "-fx-font-size: 16; " +
+                             "-fx-padding: 4 8; " +
+                             "-fx-background-radius: 6; " +
+                             "-fx-cursor: hand;");
+        
+        // Effet hover
+        actionButton.setOnMouseEntered(e -> {
+            actionButton.setStyle(actionButton.getStyle() + "-fx-background-color: rgba(94, 129, 172, 0.2);");
+        });
+        actionButton.setOnMouseExited(e -> {
+            actionButton.setStyle(actionButton.getStyle().replace("-fx-background-color: rgba(94, 129, 172, 0.2);", ""));
+        });
+        
+        // Menu contextuel
+        ContextMenu contextMenu = new ContextMenu();
+        
+        // Option: Éditer tout
+        MenuItem editAllItem = new MenuItem("✏️ Éditer tout");
+        editAllItem.setOnAction(e -> showEditDeleteDialog(node));
+        
+        // Option: Dupliquer (si pas racine)
+        if (!isRoot) {
+            MenuItem duplicateItem = new MenuItem("📋 Dupliquer");
+            duplicateItem.setOnAction(e -> duplicateNode(node));
+            contextMenu.getItems().add(duplicateItem);
+        }
+        
+        contextMenu.getItems().add(editAllItem);
+        
+        // Séparateur et suppression (si pas racine)
+        if (!isRoot) {
+            contextMenu.getItems().add(new SeparatorMenuItem());
+            MenuItem deleteItem = new MenuItem("🗑️ Supprimer");
+            deleteItem.setStyle("-fx-text-fill: #BF616A;");
+            deleteItem.setOnAction(e -> confirmAndDeleteNode(node));
+            contextMenu.getItems().add(deleteItem);
+        }
+        
+        // Afficher le menu au clic
+        actionButton.setOnAction(e -> {
+            contextMenu.show(actionButton, Side.BOTTOM, 0, 0);
+        });
+        
+        // Tooltip
+        Tooltip tooltip = new Tooltip("Actions");
+        tooltip.setStyle("-fx-background-color: #2E3440; -fx-text-fill: white; -fx-background-radius: 6;");
+        Tooltip.install(actionButton, tooltip);
+        
+        return actionButton;
+    }
+    
+    /**
+     * Duplique un nœud
+     */
+    private void duplicateNode(TreeNode node) {
+        TreeNode parent = findParentNode(node);
+        if (parent != null) {
+            TreeNode duplicated = node.clone();
+            duplicated.setId(UUID.randomUUID().toString());
+            duplicated.setName(node.getName() + " (copie)");
+            
+            configService.addChildNode(parent, duplicated);
+            showQuickAlert("✅ Duplication réussie", "#A3BE8C", 
+                          "Élément dupliqué : " + duplicated.getName());
+        }
+    }
+    
+    /**
+     * Confirme et supprime un nœud
+     */
+    private void confirmAndDeleteNode(TreeNode node) {
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle("Confirmer la suppression");
+        alert.setHeaderText("Supprimer : " + node.getName());
+        alert.setContentText("Cette action est irréversible. Tous les sous-éléments seront également supprimés.");
+        
+        Optional<ButtonType> result = alert.showAndWait();
+        if (result.isPresent() && result.get() == ButtonType.OK) {
+            configService.removeNode(node);
+            showQuickAlert("✅ Suppression effectuée", "#BF616A", 
+                          "Élément supprimé : " + node.getName());
+        }
+    }
+    
+    /**
+     * Affiche un feedback visuel rapide sur un composant
+     */
+    private void showQuickFeedback(Node component, String color, String symbol) {
+        // Animation de feedback rapide
+        Platform.runLater(() -> {
+            if (component instanceof Labeled) {
+                final String originalStyle = ((Labeled) component).getStyle();
+                ((Labeled) component).setStyle(originalStyle + "-fx-border-color: " + color + "; -fx-border-width: 2;");
+                
+                // Restaurer après 1 seconde
+                Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(1), e -> {
+                    ((Labeled) component).setStyle(originalStyle);
+                }));
+                timeline.play();
+            }
+        });
+    }
+    
+    /**
+     * Affiche une alerte rapide et non-invasive
+     */
+    private void showQuickAlert(String title, String color, String message) {
+        // Version simplifiée de showModernAlert pour un feedback plus rapide
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle(title);
+        alert.setHeaderText(null);
+        alert.setContentText(message);
+        
+        DialogPane dialogPane = alert.getDialogPane();
+        dialogPane.setStyle("-fx-background-color: white; -fx-background-radius: 15; " +
+                           "-fx-border-color: " + color + "; -fx-border-width: 2; -fx-border-radius: 15;");
+        
+        // Auto-fermeture après 2 secondes
+        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(2), e -> alert.close()));
+        timeline.play();
+        
+        alert.show();
+    }
+    
+    /**
+     * Affiche la boîte de dialogue combinée éditer/supprimer (conservée pour compatibilité)
      */
     private void showEditDeleteDialog(TreeNode node) {
         Dialog<String> dialog = new Dialog<>();

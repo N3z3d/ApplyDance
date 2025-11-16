@@ -16,6 +16,7 @@ com\applydance\service\StatisticsService$TemporalStatistics.class
 com\applydance\gui\TestJavaFX.class
 com\applydance\service\ExportImportService$ValidationResult.class
 com\applydance\service\TreeConfigurationService.class
+com\applydance\gui\JavaFXIntegrationTest.class
 com\applydance\gui\MainController$TreeNodeData.class
 com\applydance\service\ValidationService$PercentageCorrection.class
 com\applydance\gui\TreeDragDropController.class

@@ -26,14 +26,21 @@
         <version>3.1.0</version>
         <configuration>
           <mainClass>com.applydance.ApplyDanceApplication</mainClass>
+          <args>
+            <arg>--add-modules</arg>
+            <arg>javafx.controls,javafx.fxml,javafx.graphics,javafx.base</arg>
+            <arg>--add-exports</arg>
+            <arg>javafx.graphics/com.sun.javafx.application=ALL-UNNAMED</arg>
+          </args>
         </configuration>
       </plugin>
       <plugin>
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-maven-plugin</artifactId>
-        <version>0.0.4</version>
+        <version>0.0.8</version>
         <configuration>
-          <mainClass>com.applydance.gui.ApplyDanceGUI</mainClass>
+          <mainClass>com.applydance.ApplyDanceApplication</mainClass>
+          <runtimePathOption>MODULEPATH</runtimePathOption>
         </configuration>
       </plugin>
       <plugin>

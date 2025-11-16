@@ -310,4 +310,124 @@
     "finalPercentage" : 50.0
   },
   "selected" : false
+}, {
+  "id" : 27,
+  "generatedAt" : "2025-08-17 16:26:15",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Welcome to the Jungle",
+  "selectedNodeId" : "882c1342-b62b-417f-afb9-64866377557a",
+  "selectedNodeName" : "Welcome to the Jungle",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 9.822499400335813
+  },
+  "selected" : false
+}, {
+  "id" : 28,
+  "generatedAt" : "2025-08-18 12:54:36",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Spontanée",
+  "selectedNodeId" : "d259c210-da98-4ce2-b5de-b81799d0901e",
+  "selectedNodeName" : "Spontanée",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 29,
+  "generatedAt" : "2025-08-18 13:02:59",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Cadremploi",
+  "selectedNodeId" : "d4518973-b9aa-4b28-a430-7e3d19e14d5e",
+  "selectedNodeName" : "Cadremploi",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 8.176618212717361
+  },
+  "selected" : false
+}, {
+  "id" : 30,
+  "generatedAt" : "2025-08-19 23:40:56",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Business France",
+  "selectedNodeId" : "7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+  "selectedNodeName" : "Business France",
+  "metadata" : {
+    "nodeLevel" : 2,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 50.0
+  },
+  "selected" : false
+}, {
+  "id" : 31,
+  "generatedAt" : "2025-08-22 21:32:22",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Business France > Ingénieur amélioration continue / lean / performance industrielle",
+  "selectedNodeId" : "job-amelioration-003-7551fd37-bfba-4e1a-9d4a-9e3efe282878",
+  "selectedNodeName" : "Ingénieur amélioration continue / lean / performance industrielle",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 15.0
+  },
+  "selected" : false
+}, {
+  "id" : 32,
+  "generatedAt" : "2025-08-25 13:41:51",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Glassdoor > Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+  "selectedNodeId" : "job-methodes-002-d541eb3f-ed6c-4d51-b0ec-5603451a9dd7",
+  "selectedNodeName" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+  "metadata" : {
+    "nodeLevel" : 4,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 25.0
+  },
+  "selected" : false
+}, {
+  "id" : 33,
+  "generatedAt" : "2025-08-29 16:58:09",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > Apec > Ingénieur développeur logiciel (Java)",
+  "selectedNodeId" : "job-dev-java-001-5f1fc302-adb3-4351-abfb-b80f0aa49951",
+  "selectedNodeName" : "Ingénieur développeur logiciel (Java)",
+  "metadata" : {
+    "nodeLevel" : 4,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 40.0
+  },
+  "selected" : false
+}, {
+  "id" : 34,
+  "generatedAt" : "2025-08-31 13:33:59",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Rouen et alentours > HelloWork > Ingénieur développeur logiciel (Java)",
+  "selectedNodeId" : "job-dev-java-001-4a62defb-5d7d-46ce-9ca2-44bd5f2aafcc",
+  "selectedNodeName" : "Ingénieur développeur logiciel (Java)",
+  "metadata" : {
+    "nodeLevel" : 4,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 40.0
+  },
+  "selected" : false
+}, {
+  "id" : 35,
+  "generatedAt" : "2025-09-03 16:45:08",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > VIE > Spontanée > Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+  "selectedNodeId" : "job-methodes-002-d259c210-da98-4ce2-b5de-b81799d0901e",
+  "selectedNodeName" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+  "metadata" : {
+    "nodeLevel" : 3,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 25.0
+  },
+  "selected" : false
+}, {
+  "id" : 36,
+  "generatedAt" : "2025-09-04 10:27:07",
+  "decisionPath" : "\uD83C\uDF33 Arbre Principal > CDI en France > Autre que Rouen > Glassdoor > Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+  "selectedNodeId" : "job-methodes-002-399247f8-4f6b-4ee7-9259-b73965a46f55",
+  "selectedNodeName" : "Ingénieur méthodes / Ingénieur process / Ingénieur industrialisation",
+  "metadata" : {
+    "nodeLevel" : 4,
+    "nodeColor" : "#5E81AC",
+    "finalPercentage" : 25.0
+  },
+  "selected" : false
 } ]

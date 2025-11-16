@@ -6,7 +6,16 @@
       "Bash(git commit:*)",
       "Bash(find:*)",
       "Bash(java:*)",
-      "Bash(mvn:*)"
+      "Bash(mvn:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(where java)",
+      "Bash(dir:*)",
+      "Bash(dir:*)",
+      "Bash(where javac)",
+      "Bash(timeout 10 mvn exec:java:*)",
+      "Bash(rm:*)"
     ],
     "deny": [],
     "ask": []
